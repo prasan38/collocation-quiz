@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo Available AT
 
-[https://prasan38.github.io/collocation-quiz/](View Demo)
+[View Demo](https://prasan38.github.io/collocation-quiz/)
