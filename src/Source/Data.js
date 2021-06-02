@@ -1,98 +1,11 @@
 const data = [
     {
-        "word": "accurate",
-        "answer": "measurement",
+        "word": "acceptable",
+        "answer": "behaviour",
         "options": [
             {
                 "optionVal": "behaviour"
             },
-            {
-                "optionVal": "participation"
-            },
-            {
-                "optionVal": "measurement"
-            },
-            {
-                "optionVal": "objective"
-            }
-        ]
-    },
-    {
-        "word": "accept",
-        "answer": "concept",
-        "options": [
-            {
-                "optionVal": "concept"
-            },
-            {
-                "optionVal": "career"
-            },
-            {
-                "optionVal": "participation"
-            },
-            {
-                "optionVal": "responsibility"
-            }
-        ]
-    },
-    {
-        "word": "basic",
-        "answer": "element",
-        "options": [
-            {
-                "optionVal": "achievement"
-            },
-            {
-                "optionVal": "goal"
-            },
-            {
-                "optionVal": "measurement"
-            },
-            {
-                "optionVal": "element"
-            }
-        ]
-    },
-    {
-        "word": "achieve",
-        "answer": "objective",
-        "options": [
-            {
-                "optionVal": "achievement"
-            },
-            {
-                "optionVal": "behaviour"
-            },
-            {
-                "optionVal": "career"
-            },
-            {
-                "optionVal": "objective"
-            }
-        ]
-    },
-    {
-        "word": "active",
-        "answer": "participation",
-        "options": [
-            {
-                "optionVal": "element"
-            },
-            {
-                "optionVal": "participation"
-            },
-            {
-                "optionVal": "responsibility"
-            },
-            {
-                "optionVal": "concept"
-            }
-        ]
-    },
-    {
-        "word": "academic",
-        "answer": "institution",
-        "options": [
             {
                 "optionVal": "objective"
             },
@@ -100,28 +13,7 @@ const data = [
                 "optionVal": "description"
             },
             {
-                "optionVal": "component"
-            },
-            {
                 "optionVal": "institution"
-            }
-        ]
-    },
-    {
-        "word": "acquire",
-        "answer": "knowledge",
-        "options": [
-            {
-                "optionVal": "responsibility"
-            },
-            {
-                "optionVal": "knowledge"
-            },
-            {
-                "optionVal": "information"
-            },
-            {
-                "optionVal": "goal"
             }
         ]
     },
@@ -130,10 +22,10 @@ const data = [
         "answer": "responsibility",
         "options": [
             {
-                "optionVal": "career"
+                "optionVal": "knowledge"
             },
             {
-                "optionVal": "description"
+                "optionVal": "concept"
             },
             {
                 "optionVal": "responsibility"
@@ -144,20 +36,128 @@ const data = [
         ]
     },
     {
-        "word": "acceptable",
-        "answer": "behaviour",
+        "word": "acquire",
+        "answer": "knowledge",
         "options": [
             {
-                "optionVal": "goal"
+                "optionVal": "career"
+            },
+            {
+                "optionVal": "knowledge"
+            },
+            {
+                "optionVal": "involvement"
+            },
+            {
+                "optionVal": "concept"
+            }
+        ]
+    },
+    {
+        "word": "achieve",
+        "answer": "goal",
+        "options": [
+            {
+                "optionVal": "description"
             },
             {
                 "optionVal": "measurement"
             },
             {
+                "optionVal": "goal"
+            },
+            {
+                "optionVal": "information"
+            }
+        ]
+    },
+    {
+        "word": "active",
+        "answer": "participation",
+        "options": [
+            {
+                "optionVal": "participation"
+            },
+            {
+                "optionVal": "objective"
+            },
+            {
+                "optionVal": "journal"
+            },
+            {
                 "optionVal": "behaviour"
+            }
+        ]
+    },
+    {
+        "word": "accurate",
+        "answer": "measurement",
+        "options": [
+            {
+                "optionVal": "component"
+            },
+            {
+                "optionVal": "measurement"
+            },
+            {
+                "optionVal": "concept"
+            },
+            {
+                "optionVal": "institution"
+            }
+        ]
+    },
+    {
+        "word": "academic",
+        "answer": "career",
+        "options": [
+            {
+                "optionVal": "responsibility"
+            },
+            {
+                "optionVal": "career"
+            },
+            {
+                "optionVal": "goal"
+            },
+            {
+                "optionVal": "knowledge"
+            }
+        ]
+    },
+    {
+        "word": "basic",
+        "answer": "component",
+        "options": [
+            {
+                "optionVal": "component"
+            },
+            {
+                "optionVal": "objective"
             },
             {
                 "optionVal": "achievement"
+            },
+            {
+                "optionVal": "information"
+            }
+        ]
+    },
+    {
+        "word": "abstract",
+        "answer": "concept",
+        "options": [
+            {
+                "optionVal": "journal"
+            },
+            {
+                "optionVal": "objective"
+            },
+            {
+                "optionVal": "knowledge"
+            },
+            {
+                "optionVal": "concept"
             }
         ]
     }
