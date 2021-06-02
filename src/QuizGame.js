@@ -9,7 +9,7 @@ function QuizGame() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:8002/api/quiz", {
+        fetch("https://demo-uniproject.ml/api/quiz", {
             headers: {
                 "accept": "application/json"
             }
