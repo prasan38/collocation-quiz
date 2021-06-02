@@ -1,21 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import CardComponent from './CardComponent'
+import data from './Source/Data'
 
 
 function QuizGame() {
 
     const [count, setCount] = useState(1);
     const [correctAnsCount, setCorrectAnsCount] = useState(0);
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        fetch("https://demo-uniproject.ml/api/quiz", {
-            headers: {
-                "accept": "application/json"
-            }
-        }).then(res => res.json())
-            .then(res => setData(res))
-    }, [])
 
     return (
         <>
